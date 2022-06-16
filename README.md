@@ -1,1 +1,0 @@
-# egertojamae.github.io
