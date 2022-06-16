@@ -1,4 +1,7 @@
 
+/**
+   * Start of main JS
+   */
 (function() {
   "use strict";
 
