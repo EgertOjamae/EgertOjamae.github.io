@@ -316,11 +316,20 @@
 
           <div class="portfolio-item filter-video"> 
 				  <iframe id="iframeVideo" width="1300" height="720" src="https://www.youtube.com/embed/4tukYjG3AWM" title="Kastre Municipality in autumn-time" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			  	<script>
+				// Selecting the iframe element
+					var iframe = document.getElementById("iframeVideo");
+
+				// Adjusting the iframe height onload event
+					iframe.onload = function(){
+						iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+					}
+				</script>
 			  </div>
 			
 			
 		   <div class="portfolio-item filter-video">
-			   <iframe id="iframeVideo" width="1300" height="720" src="https://www.youtube.com/embed/5ZgHaJaW_lk" title="Summerday" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			   <iframe id="iframeVideo2" width="1300" height="720" src="https://www.youtube.com/embed/5ZgHaJaW_lk" title="Summerday" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			   </div>
        
 
