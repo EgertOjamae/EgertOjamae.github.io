@@ -32,6 +32,11 @@
   }
 
   /**
+   * Background image animation
+   */
+  
+  
+  /**
    * Easy on scroll event listener 
    */
   const onscroll = (el, listener) => {
@@ -138,7 +143,7 @@
       backDelay: 2000
     });
   }
-
+	
   /**
    * Skills animation
    */
