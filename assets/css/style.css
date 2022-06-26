@@ -36,6 +36,26 @@ h1, h2, h3, h4, h5, h6 {
 	width: 100%;
 }
 
+#iframeVideo3 {
+	aspect-ratio: 16 / 9;
+	height: 100%;
+	width: 100%;
+}
+
+
+#iframeVideo4 {
+	aspect-ratio: 16 / 9;
+	height: 100%;
+	width: 100%;
+}
+
+
+#iframeVideo5 {
+	aspect-ratio: 16 / 9;
+	height: 100%;
+	width: 100%;
+}
+
 
 
 /*--------------------------------------------------------------
