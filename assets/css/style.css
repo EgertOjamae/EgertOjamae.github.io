@@ -63,6 +63,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+#iframeVideo7 {
+	aspect-ratio: 16 / 9;
+	height: 100%;
+	width: 100%;
+}
+
+
 
 /*--------------------------------------------------------------
 # Back to top button
